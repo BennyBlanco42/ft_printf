@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//METTRE HEADER UNE FOIS A 42
-
 #include "ft_printf.h"
 
 int	ft_format(va_list args, char format)

@@ -6,13 +6,13 @@
 /*   By: bchanteu <bchanteu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/03 17:09:58 by bchanteu          #+#    #+#             */
-/*   Updated: 2025/08/03 17:51:12 by bchanteu         ###   ########.fr       */
+/*   Updated: 2025/08/03 21:58:01 by bchanteu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static	int	ft_putptr(unsigned long long ptr)
+int	ft_putptr(unsigned long long ptr)
 {
 	int	count;
 
