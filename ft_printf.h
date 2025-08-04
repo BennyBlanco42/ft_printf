@@ -1,12 +1,21 @@
-//METTRE HEADER 42
-
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bchanteu <bchanteu@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/08/04 11:35:14 by bchanteu          #+#    #+#             */
+/*   Updated: 2025/08/04 11:35:14 by bchanteu         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-#include <stdarg.h>
-#include <unistd.h>
-#include <stdlib.h>
+# include <stdarg.h>
+# include <unistd.h>
+# include <stdlib.h>
 
 int	ft_putchar(char c);
 int	ft_putstr(char *str);

@@ -40,6 +40,8 @@ int	ft_printf(const char *format, ...)
 	i = 0;
 	count = 0;
 	va_start(args, format);
+	if (!format)
+		return (-1);
 	while (format[i])
 	{
 		if (format[i] == '%' && format[i + 1])

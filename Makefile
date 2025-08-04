@@ -9,7 +9,7 @@ SRC = ft_printf.c \
 
 OBJ = $(SRC:.c=.o)
 
-CC = gcc
+CC = cc
 
 CFLAGS = -Wall -Wextra -Werror
 

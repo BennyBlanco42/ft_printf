@@ -6,14 +6,14 @@
 /*   By: bchanteu <bchanteu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/03 13:03:46 by bchanteu          #+#    #+#             */
-/*   Updated: 2025/08/03 17:04:49 by bchanteu         ###   ########.fr       */
+/*   Updated: 2025/08/04 14:12:13 by bchanteu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int    ft_putchar(char c)
+int	ft_putchar(char c)
 {
-    write(1, &c, 1);
-    return (1);
+	write(1, &c, 1);
+	return (1);
 }

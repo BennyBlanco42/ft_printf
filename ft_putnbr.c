@@ -6,13 +6,13 @@
 /*   By: bchanteu <bchanteu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/03 17:05:21 by bchanteu          #+#    #+#             */
-/*   Updated: 2025/08/03 17:06:52 by bchanteu         ###   ########.fr       */
+/*   Updated: 2025/08/04 14:16:41 by bchanteu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int ft_putnbr(int n)
+int	ft_putnbr(int n)
 {
 	long	nb;
 	int		count;
